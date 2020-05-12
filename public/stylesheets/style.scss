@@ -1,3 +1,21 @@
 body {
   font-family: sans-serif;
 }
+
+a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.card {
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.main {
+  width: 450px;
+  margin: 100px auto;
+}

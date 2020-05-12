@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "node ./server",
-    "dev": "nodemon ./server -e js,json,hbs,scss,css"
+    "dev": "nodemon ./server -e js,json,hbs,scss"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

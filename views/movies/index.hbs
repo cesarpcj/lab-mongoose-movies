@@ -1,0 +1,11 @@
+{{#each movies}}
+<div class="card">
+    <h2>Title: {{title}}</h2>
+    
+    <div style="display: flex;">
+        <form action="/movies/movie/{{id}}" method="GET"><button>See More</button></form>
+        <form action="/movies/movie/{{id}}/delete" method="POST"><button>Delete</button></form>
+    </div>
+    
+</div>  
+{{/each}}

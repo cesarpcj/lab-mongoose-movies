@@ -1,0 +1,10 @@
+{{#each celebrities}}
+<div class="card">
+    <h2>Celebrity: {{name}}</h2>
+    <div style="display: flex;">
+        <form action="/celebrities/{{id}}" method="GET"><button>See More</button></form>
+        <form action="/celebrities/{{id}}/delete" method="POST"><button>Delete</button></form>
+    </div>
+</div>  
+    
+{{/each}}
